@@ -8,12 +8,12 @@ An open-source GDExtension plugin for **Godot Engine 4.x** that brings modern Di
 
 ## 📌 Navigation
 
-- [About](#about)
-- [Download & Installation](#download--installation)
-- [API Documentation](#api-documentation)
+- [About](#-about)
+- [Download & Installation](#-download--installation)
+- [API Documentation](#-api-documentation)
 - [Building from Source](#-building-from-source)
-- [License](#license)
-- [Contributing](#contributing)
+- [License](#️-license)
+- [Contributing](#-contributing)
 
 
 ## 📖 About
