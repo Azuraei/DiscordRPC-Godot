@@ -12,6 +12,7 @@ An open-source GDExtension plugin for **Godot Engine 4.x** that brings modern Di
 - [Download & Installation](#-download--installation)
 - [API Documentation](#-api-documentation)
 - [Building from Source](#-building-from-source)
+- [Getting Discord SDK](#-getting-discord-sdk)
 - [License](#️-license)
 - [Contributing](#-contributing)
 
@@ -54,7 +55,7 @@ git clone --recursive [https://github.com/MiraDiv-git/NextDiscordRPC-Godot.git](
 cd NextDiscordRPC-Godot
 ```
 2. Download the official Discord Social SDK from the [Discord Developer Portal](https://discord.com/developers/home).
-3. Follow [THIS TUTORIAL](#getting-discord-sdk) to place the SDK header files and libraries into the correct directories, so the linker can see them.
+3. Follow [THIS TUTORIAL](#-getting-discord-sdk) to place the SDK header files and libraries into the correct directories, so the linker can see them.
 
 ### Compilation
 You can use the automated build.sh script or run SCons manually.
