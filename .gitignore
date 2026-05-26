@@ -1,0 +1,7 @@
+.cache/
+src/lib/discord_social_sdk/
+project/addons/NextDiscordRPC/bin/
+
+.sconsign.dblite
+**.os
+**.kate-swp
