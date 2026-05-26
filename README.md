@@ -19,7 +19,7 @@ An open-source GDExtension plugin for **Godot Engine 4.x** that brings modern Di
 
 ## 📖 About
 
-**Next Discord RPC** is built for engineering pragmatism. Unlike outdated solutions based on the deprecated Discord Game SDK, this plugin utilizes the current [Discord Social SDK](https://discord.com/developers/social-sdk) via native C++ (GDExtension). 
+**Next Discord RPC** is built for engineering pragmatism. Unlike outdated solutions based on the deprecated [Discord Game SDK](https://docs.discord.com/developers/developer-tools/game-sdk), this plugin utilizes the current [Discord Social SDK](https://discord.com/developers/social-sdk) via native C++ (GDExtension). 
 
 ### Key Features:
 - **Pure Performance:** Written in C++ utilizing `godot-cpp`, ensuring minimal overhead and native execution speed.
@@ -43,7 +43,8 @@ An open-source GDExtension plugin for **Godot Engine 4.x** that brings modern Di
 
 ## 🛠 Building from Source
 To keep the repository clean and legal, all proprietary Discord binaries are completely excluded from the source tree. Follow these steps to compile the plugin locally:
-Prerequisites
+
+### Prerequisites
 - SCons build system installed.
 - A compatible C++17/C++20 compiler (GCC/Clang on Linux, MSVC on Windows).
 
@@ -147,4 +148,4 @@ Any modifications or bug fixes made strictly to this plugin's source files must 
 
 Contributions are heavily welcome! Especially if you want to optimize the SCons architecture, clean up the C++ pipeline, or fix cross-platform linker edge cases.
 
-Seriously, pull requests are appreciated. I deal with C# daily and writing raw C++ boilerplate can be an absolute pain. Let's make this wrapper better together.
+Seriously, pull requests are appreciated. Writing raw C++ boilerplate can be an absolute pain. Let's make this wrapper better together.
