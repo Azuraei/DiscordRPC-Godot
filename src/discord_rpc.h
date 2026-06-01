@@ -19,6 +19,8 @@ public:
     void set_activity(String details, String state);
     void set_large_image(String key, String text);
     void set_timestamp_start();
+    void set_timestamp_end(int64_t value);
+    void set_timestamps(int64_t value_start, int64_t value_end);
     void clear_activity();
     void run_callbacks();
     void shutdown();
