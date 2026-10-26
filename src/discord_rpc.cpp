@@ -23,7 +23,7 @@ void DiscordRPC::set_activity(String details, String state) {
     current_activity.SetType(discordpp::ActivityTypes::Listening);
     current_activity.SetDetails(details.utf8().get_data());
     current_activity.SetState(state.utf8().get_data());
-    current_activity.SetStatusDisplayType(discordpp::StatusDisplayTypes::State);
+    current_activity.SetStatusDisplayType(discordpp::StatusDisplayTypes::Details);
     client->UpdateRichPresence(current_activity, [](discordpp::ClientResult result) {});
 }
 
